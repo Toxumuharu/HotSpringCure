@@ -16,6 +16,9 @@ twitter_username: HaruShoots
 # github_username: toxumuharu
 # disqus_username:
 
+# google analytics
+google_analytics: G-YTEJK5KR4D
+
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title/

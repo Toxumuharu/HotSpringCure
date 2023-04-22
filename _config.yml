@@ -1,43 +1,43 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-title: 解雇されるし豊富温泉で湯治するか
-email: tomoharu.kawata@outlook.com
-description: > # this means to ignore newlines until "baseurl:"
-baseurl: "/HotSpringCure" # the subpath of your site, e.g. /blog
-lang: "ja"
-url: https://toxumuharu.github.io/" # the base hostname & protocol for your site
-twitter_username: HaruShoots
-# github_username: toxumuharu
-# disqus_username:
+title:          解雇されるし豊富温泉で湯治するか
+description:    "解雇されるし豊富温泉で湯治するか"
+url:            https://toxumuharu.github.io/
 
 # google analytics
 google_analytics: G-YTEJK5KR4D
 
+# Author
+author:
+  name:         Toxumuharu
+  email:        tomoharu.kawata@gmail.com
+  url:          https://toxumuharu.github.io/
+
 # Build settings
-markdown: kramdown
-permalink: /:categories/:title/
+markdown:       kramdown
 
-# Posts settings
-future: true
-safe: false
-lsi: false
-excerpt_separator: "\n\n"
-
-# Theme settings
-compress_html:
-  comments: ["<!-- ", " -->"]
-  clippings: all
-  endings: all
-
-
+# Assets
 sass:
-  style: compressed
+  sass_dir:     _sass
+  style:        compressed
 
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  # - jemoji #Uncomment this to allow emoji in your post
 
-images: '/assets/images'
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
+
+# Related posts settings
+related_posts_section:
+  max_count:        5
+  min_common_tags:  2
+
+# Links to social media
+social:
+  # email: inelaah@gmail.com
+  github: https://github.com/Toxumuharu/
+  # twitter: https://twitter.com
+  # linkedin: https://ba.linkedin.com/in/inela-avdic-hukic-322354131

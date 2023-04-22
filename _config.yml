@@ -28,7 +28,7 @@ plugins:
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
-paginate:       5
+paginate:       8
 
 # Related posts settings
 related_posts_section:
